@@ -1,6 +1,6 @@
 pkgname=bengalboot-hooks
 pkgver=1
-pkgrel=1
+pkgrel=2
 pkgdesc='Bengalboot pacman hooks'
 arch=('any')
 license=('GPL3')
@@ -8,7 +8,7 @@ url=https://github.com/BCW52
 depends=(libnotify)
 
 source=(https://github.com/BCW52/bengalboot-hooks/archive/refs/heads/main.zip)
-sha512sums=('f1ff92434699e7d044728e2da59bae6b3b347e56c0bbb55295d4a0f0809efa0acb8acee6ec3deff1b571d4c16b2919c42ed1506b069d1bc2961f72cb0e33e95f')
+sha512sums=('7f2d3f2b5f2f41976acadf7e92b4a99d61f826c0e66a962353be435900cef544b04646a6662301d54def06ff9aac42b309edcdabf272eaf9cc08db8c579de6c8')
 
 package() {
   local hooks=$pkgdir/usr/share/libalpm/hooks
